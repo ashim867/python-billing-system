@@ -1,0 +1,12 @@
+# 1. Ignore every file in this folder
+*
+
+# 2. But do NOT ignore these specific files
+!bill.py
+!index.py
+!.gitignore
+!README.md
+
+# 3. Always ignore these junk files/folders
+__pycache__/
+*.pyc
